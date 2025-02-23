@@ -1,0 +1,154 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header .logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Portfolio Section Styling */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* سه ستون با عرض مساوی */
+    gap: 20px;
+    max-width: 900px; /* حداکثر عرض گالری */
+    margin: 0 auto; /* وسط‌چین کردن گالری */
+}
+
+.image-gallery img {
+    width: 100%; /* عرض تصویر برابر با عرض ستون */
+    height: 200px; /* ارتفاع ثابت برای همه تصاویر */
+    object-fit: cover; /* تصاویر رو به صورت متناسب پر می‌کنه */
+    border-radius: 8px;
+}
+
+/* Form Section Styling */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+/* Pricing Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Video Section Styling */
+video {
+    display: block;
+    width: 100%;
+    max-width: 640px; /* ویدیو را به عرض حداکثر 640px محدود می‌کنیم */
+    height: 360px; /* ارتفاع ویدیو را به 360px تعیین می‌کنیم */
+    margin: 20px auto; /* ویدیو در وسط صفحه قرار می‌گیرد */
+}
+
+/* Social Media Links Styling */
+#social a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #222;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#social a:hover {
+    color: #444;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+    color: #fff;
+    margin-top: 30px;
+}
